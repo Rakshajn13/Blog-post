@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    padding: 10px;
+}
+
+.main-title {
+    color: aliceblue;
+    background-color:rgb(22, 18, 18);
+    font-size: 50px;
+    text-align:left;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.quote {
+    display: flex;
+    align-items: stretch;
+}
+
+.side-quote {
+    font-size: 50px;
+    font-weight: bold;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-style:italic;
+    color:darkslategray;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.title{
+    font-size: 70px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color:darkslategray;
+    padding: 1px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.text{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.quote-image {
+   
+    float: left;
+    height:fit-content;
+}
+
+
+.half{
+    width: 100%;
+}
+
+.secondhalf{
+    width: 100%;
+}
+
+
+.blog {
+    background-color:white;
+    display: flex;
+    align-items: stretch;
+    padding-top: 50px;
+    justify-content:center;
+    align-content: space-around;
+    align-self: center;
+}
+
+
+.heading {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story {
+    line-height: 2;
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    letter-spacing: 2px;
+
+}
+
+.first{
+    width: 50%;
+
+    border: 5px solid darkslategray;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: beige;
+}
+.second {
+    width: 50%;
+
+    border: 5px solid darkslategray;
+    padding: 20px;
+    justify-content: center;
+    background-color: beige;
+}
+
+
+.photo{
+    width: fit-content;
+}
+
+.button{
+    border:1px bisque;
+    color: white;
+    padding: 15px 32px;
+    text-align:right;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    margin-left: 1200px;
+}
